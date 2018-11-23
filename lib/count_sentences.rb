@@ -14,6 +14,7 @@ class String
     self.end_with?("!")
   end
 
+#ask about regex
   def count_sentences
   self.split(/\? |\!! |\. /).count
   end
